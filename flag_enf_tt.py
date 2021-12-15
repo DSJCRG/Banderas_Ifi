@@ -12,7 +12,7 @@ import numpy as np
 def get_engine():
     connection_string = "mssql+pyodbc://{0}@{2}:{1}@{2}.database.windows.net:{4}/{3}?driver=ODBC+Driver+17+for+SQL+Server".format(
                         'ko_ice_reader',
-                        'Hy7kHX64eHn+4JaR',
+                        XXXXX',
                         'koice',
                         'ko_ice',
                         1433)
@@ -203,7 +203,7 @@ DELETE FROM Ifi_Enfriadores_tot
 def get_engine():
     connection_string = "mssql+pyodbc://{0}@{2}:{1}@{2}.database.windows.net:{4}/{3}?driver=ODBC+Driver+17+for+SQL+Server".format(
                         'jrivas',
-                        '8khHAM=B=q$ZGr6N',
+                        'XXXXX',
                         'koice',
                         'ko_ice',
                         1433)
