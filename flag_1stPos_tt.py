@@ -194,7 +194,7 @@ DELETE FROM Primera_Posicion_tt
 def get_engine():
     connection_string = "mssql+pyodbc://{0}@{2}:{1}@{2}.database.windows.net:{4}/{3}?driver=ODBC+Driver+17+for+SQL+Server".format(
                         'jrivas',
-                        '8khHAM=B=q$ZGr6N',
+                        'XXXXX',
                         'koice',
                         'ko_ice',
                         1433)
